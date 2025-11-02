@@ -12,17 +12,15 @@ You can try this frontend web application without a backend application and a da
 - The backend must be implemented using Spring Boot
 - You can choose the technologies used for the frontend: (i) use the frontend described in this repository (vanilla HTML, CSS e Javacript communication with a RESTful API in the backend, (ii) Using a template engine like Thymeleaf to generate the views for the frontend (strategy used in the videos by Prof. Fellipe Rey), and (iii) Using a JavaScript library like React for the frontend communicating with the backend using valilla JavaScript and/or some library for asynchronous communication with the backend (e.g, axios)
 
-## Technologies to be Used in this assignment 
+## Technologies I suggest you use in this assignment 
 
 These are the **backend** technologies I suggest you use when developing your solution:   
 - Spring Boot
 - MySQL or an embedded (in memory) database
 - Thymeleaf + HTML + CSS + Javascript (if you decide to use a template engine with for dynamic generation of web page on the server) 
-- JavaScript (without libraries\frameworks such as vue or React
 - Traditional MVC or REST controller when using a template engine such as Thymeleaf or REST controller for a decoupled frontend (see frontend technologies below). 
 
 These are the **frontend** technologies I suggest you if you decide to **not use a template engine such as Thymeleaf**   
-
 - HTML
 - Vanilla CSS (without CSS libraries such as BootStrap pr TailWind)
 - Vanilla JavaScript (without libraries\frameworks such as vue or React)
