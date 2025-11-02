@@ -41,14 +41,14 @@ The user stories are considered completed if:
 | 01    | US-1232   | Login      |
 | 02    | US-1603   | Register new users     |
 | 03    | US-2032   | Access the Category Management Dashboard     |
-| 08    | US-1306   | Create category of products      |
-| 09    | US-0907   | List categories of products     |
-| 10    | US-2100   | List products within a category for the online shopper |
-| 11    | US-1307   | Edit category of products     |
-| 12    | US-0904   | Delete category of products    |
-| 13    | US-0913   | Sort category of products     |
-| 14    | US-0914   | Filter category of products     |
-| 15    | US-0916   | Export category of products     |
+| 04    | US-1306   | Create category of products      |
+| 05    | US-0907   | List categories of products     |
+| 06    | US-2100   | List products within a category for the online shopper |
+| 07    | US-1307   | Edit category of products     |
+| 08    | US-0904   | Delete category of products    |
+| 09    | US-0913   | Sort category of products     |
+| 10    | US-0914   | Filter category of products     |
+| 11    | US-0916   | Export category of products     |
 
 ## Requirements  
 
