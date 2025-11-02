@@ -73,7 +73,7 @@ Acceptance criteria:
 - A user has an e-mail address and a password.
 - A message "Already have an account? Login" must be presented to allow returnin to the login page.
 
-### US-2032: Access the Category Management Dashboard  (ALREADY IMPLEMENTED)
+### US-2032: Access the Category Management Dashboard 
 
 "As an Administrator I want to access the Category Management Dashboard to manage all categories, including listing all categories in order to have a global view of all categories of products available in Blue Velvet Music store."
 
@@ -84,7 +84,7 @@ Acceptance criteria:
 - A message showing the logged-in user should be presented: "Welcome,{username} (role)
 - if a user tries to access the dashboard page without logging in then an error page is displayed.
 - An option to logout of this page must be presented for security reasons. After clicking logout, the login form must be presented (See US 1351 and 1358)
-- The list of categories may be too long. Provide a way for navigation (e.g. pagination for the products list)
+- The list of categories may be too long. Provide a way for navigation (e.g. pagination for the categories list)
 - By default, it must be possible to see 10 categories per page (pagination)
 - Pagination is based on categories names 
 - Pagination should work well with sorting 
@@ -94,10 +94,10 @@ Acceptance criteria:
 - The fields main image and category name must be shown
 - To see category details, see US-1045
 - From the dashboard it must be possible to add, view deails, delete, and edit category information.
-- There must be an option to reset the category list to it's initial state (to facilitate testing, there will be 10 categories initially created when first running the application of after selecting the option reset the product list.
+- There must be an option to reset the category list to it's initial state (to facilitate testing, there will be 10 categories initially created when first running the application of after selecting the option reset the cartegories list.
 
 ![US-1232: Register](images/user_stories/us-2032/begin/us-2032-begin.png)
-**Figure 5:** US-2032 - Access the Product Management Dashboard (provided as starting point for the assignment)
+**Figure 5:** US-2032 - Access the Product Categories Management Dashboard (provided as starting point for the assignment)
 
 ![US-1232: Register](images/user_stories/us-1603/begin/us-1603-begin.png)
 **Figure 3:** US-1603 - Register new users (provided as starting point for the assignment)
@@ -142,23 +142,19 @@ Note: Make Categories Page Fully Responsive
 
 ### US-2100: List products within a category for the online shopper  
 
-"As an Online shopper I want to list all of products witin a category in order to have a global view of all products  sold on Blue Velvet Music store"
+"As an Online shopper I want to list all of products witin a category in order to have a global view of all products sold, by category, on Blue Velvet Music store"
 
 Acceptance criteria:
 
-- Show only enabled products
+- Show only enabled categories
 - Show enabled sub categories (sorted by name ascending)
-- Products are sorted by name in alphabetical order
+- Categories are sorted by name in alphabetical order
 - Show breadcrumb: Home / Music /mp3
-- Link pattern for a product: /product/product_alias
-- /product/pavement_brighten_in_the_corners
-- /product/dinosaur_jr/green_mind
-- Show discount price (if any): $25.00 $22.50
-- List is paginated (10 products per page)
+- List is paginated (10 categories per page)
 
 ### US-1307: Edit category of products 
 
-"As an Administrator I want to edit an existing category of products to improve the information of the products sold by Blue Velvet Music Store"
+"As an Administrator I want to edit an existing category of products to improve the information of the categories of products sold by Blue Velvet Music Store"
 
 Acceptance criteria:
 
@@ -171,7 +167,7 @@ Acceptance criteria:
 
 ### US-0904: Delete category of products  
 
-"As an Administrator I want to delete a category for a product in order to better organize the products sold by Blue Velvet Music Store"
+"As an Administrator I want to delete a category for a product in order to better organize the products sold, by categoty, in Blue Velvet Music Store"
 
 Acceptance criteria:
 
