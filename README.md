@@ -99,12 +99,6 @@ Acceptance criteria:
 - From the dashboard it must be possible to add, view deails, delete, and edit category information.
 - There must be an option to reset the category list to it's initial state (to facilitate testing, there will be 10 categories initially created when first running the application of after selecting the option reset the cartegories list.
 
-![US-1232: Register](images/user_stories/us-2032/begin/us-2032-begin.png)
-**Figure 5:** US-2032 - Access the Product Categories Management Dashboard (provided as starting point for the assignment)
-
-![US-1232: Register](images/user_stories/us-1603/begin/us-1603-begin.png)
-**Figure 3:** US-1603 - Register new users (provided as starting point for the assignment)
-
 ### US-1306: Create category of products 
 
 "As an Administrator I want to create a category for a product in order to better organize the products sold by Blue Velvet Music Store."
