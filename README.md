@@ -2,17 +2,19 @@
 
 A front-end web application for managing product categories in the BlueVelvet Music Store, built using vanilla HTML, CSS, and JavaScript.
 
-This application must be developed as term assignment for the first part (frontend development) of Web Programming course, taught by Rodrigo Martins Pagliares at the undergraduate Computer Science course at UNIFAL-MG - Alfenas - MG - Brazil.
+This frontend may be used as a starting point for the term assignment for the Application Lifecycle Management course, taught by Rodrigo Martins Pagliares at the undergraduate Computer Science course at UNIFAL-MG - Alfenas - MG - Brazil.
 
-You can try the the web application without a backend application and a database server. The frontend in this term assignment is self-contained and can be used to perform simple CRUD operations on a categories table upon logging in. The data is stored and retrieved from LocalStorage. New users can register themselves.
+You can try this frontend web application without a backend application and a database server. The frontend in this repository is self-contained and can be used to perform simple CRUD operations on a categories table upon logging in. The data is stored and retrieved from LocalStorage. New users can register themselves.
 
 ## What the students neeed to do in this assignment?
 
-- Use vanilla CSS (no library of framework, such as React, BootStrap, Vue, etc.. allowed) to style all the HTML pages created for the user stories described in the sequence of this README file.
-- Use the JavaScript LocalStorage API to simulate back-end persistence in the frontend.
-- In addition to the details provided in this README.md file, the student must take a look at all the files located in the frontend/begin directory of this repository looking for comments with addiional tips and instructions for this assignment.
+- Implement a full stack web application for product categories (CRUD) for the administrator module of BlueVelvet Music Store
+- The backend must be implemented using Spring Boot
+- You can choose the technologies used for the frontend: (i) use the frontend described in this repository (vanilla HTML, CSS e Javacript communication with a RESTful API in the backend, (ii) Using a template engine like Thymeleaf to generate the views for the frontend (strategy used in the videos by Prof. Fellipe Rey), and (iii) Using a JavaScript library like React for the frontend communicating with the backend using valilla JavaScript and/or some library for asynchronous communication with the backend (e.g, axios)
 
-## Technologies Used (frontend)
+## Technologies Used (frontend application provided as example in this repository)
+
+These are the frontend technologies used  in the frontend example of this repository:
 
 - HTML
 - Vanilla CSS (without CSS libraries such as BootStrap pr TailWind)
@@ -20,13 +22,11 @@ You can try the the web application without a backend application and a database
 
 ## Definition of DONE (Scrum)
 
-For the sake of this assignment, only the views (Web User Interfaces) for the user stories must be implemented. Backend persistence must be simulated with JavaScript LocalStorage API. 
-
 The user stories are considered completed if:
 - They meet the acceptance criteria;
+- They "crosses" all layers within the application (web user interface, controller, service, repository, resource/database)
 - They are decoupled from backend 
 - The view layer must fully responsive (responsive layout).
-- It must be possible to navigate throughout the views.
 
 ## User stories TO BE implemented in this assignment (2025/02)
 
