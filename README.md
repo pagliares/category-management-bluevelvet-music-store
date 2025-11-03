@@ -131,8 +131,7 @@ Unit tests:
 - Test printing categories in hierarchical form
 
 
-![US-1306: Create_Category](images/user_stories/us-1306/begin/Create_New_Category.png)
-
+ <img src="images/user_stories/us-1306/begin/Create_New_Category.png" alt="US-0907: Login" width="512" height="512" />
 **Figure 4:** US-1306: Create category of products 
 
 
@@ -152,7 +151,8 @@ Acceptance criteria:
 Note: Make Categories Page Fully Responsive
 
 <img src="images/user_stories/us-0907/US-0907_List_Categories_of_Products.png" alt="US-0907: Login" width="512" height="758" />
-**Figure 1:** US-0907 - List categories of products
+
+**Figure 5:** US-0907 - List categories of products
 
 
 ### US-2100: List products within a category for the online shopper  
