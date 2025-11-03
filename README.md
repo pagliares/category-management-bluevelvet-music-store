@@ -182,15 +182,14 @@ Acceptance criteria:
 
 **Figure 5:** US-1307: Edit category of products 
 
-![US-1306: Create_Category](images/user_stories/us-1306/begin/Create_New_Category.png)
+<img src="images/user_stories/us-1306/begin/Create_New_Category.png" alt="US-0907: Login" width="512" height="512" />
+
 
 **Figure 6:** US-1307: Edit category of products 
 
-![US-1306: Create_Category](images/user_stories/us-1306/begin/Category_Subcategories.png)
+<img src="images/user_stories/us-1306/begin/Category_Subcategories.png" alt="US-0907: Login" width="512" height="768" />
 
-**Figure 4:** US-1306: Create category of products 
-
-**Figure 4:** US-1306: Create category of products 
+**Figure 7:** US-1306: Create category of products 
 
 ### US-0904: Delete category of products  
 
